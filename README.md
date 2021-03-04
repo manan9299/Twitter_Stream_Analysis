@@ -5,7 +5,6 @@ A  Storm Topology to generate a list of popular words used in twitter. Data is i
 ## Requirements
 - IDE 
 - Apache Maven 3.x
-- JVM 6 or 7
 
 ## General Info
 The source folder is organized into 2 packages i.e. Kafka and Storm. Storm package has two topologies. The KafkaTwitterTopology using a Kafka spout and TwitterWordCountTopology using a Twitter Sample spout. Below is the list of classes:
